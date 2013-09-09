@@ -1,0 +1,9 @@
+#define foo bar
+foo foo foo
+#ifdef foo
+#undef foo
+#define foo baz
+#endif
+foo foo
+/* comments? comments. */
+// c++ style comments

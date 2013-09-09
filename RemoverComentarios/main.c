@@ -151,7 +151,7 @@ static void process(FILE *f)
 int main(void)
 {
     char fullname[256];
-    sprintf(fullname, "C:\\Users\\Felipe Gonzalez\\Documents\\CETYS\\Test.txt"); //Cambiar el nombre del path?
+    sprintf(fullname, "Test.txt"); //Cambiar el nombre del path?
     testFILE = fopen (fullname,"r+"); // el r+ para abrir un archivo para lectura y escritura
 
     if(testFILE) //Ver si el fichero tiene una direccion valida
